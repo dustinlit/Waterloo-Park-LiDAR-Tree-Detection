@@ -1,9 +1,7 @@
-## Trunk ID Algorithm:
-
+# Trunk ID Algorithm:
 - Clip point cloud
 - Load point cloud
-- Keep only unclassified or related vegetation parameters
-
+- Keep only unclassified or related vegetation parameter
 - define point cloud bounds
     - clound_min_x,cloud_min_y, cloud_max_x, cloud_max_y
 
@@ -30,7 +28,7 @@ total_points into result raster
 
 int tree_ids
 
-for each 3 x 3 convolution
+- for each 3 x 3 convolution
     - if current center > mean total points? upper 25th percentile?
         - compare current center to neighbors
             - check neighbors tree_id
@@ -39,8 +37,3 @@ for each 3 x 3 convolution
     - for each pointid in points_in_block 
         - set classification flag to trunk
         - assign treeID
-
-
-Generate trunk stats
-height above ground
-diam
