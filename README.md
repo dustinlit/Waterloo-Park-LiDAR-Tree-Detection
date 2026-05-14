@@ -1,6 +1,14 @@
 # Waterloo-Park-LiDAR-Tree-Detection
 An exploration of machine learning techniques to detect and quantify individual trees in Waterloo Park in Lebanon, Oregon.
 
+## Early Objectives
+- Reliably identify tree trunks using lidar points and correlate with orthophoto
+- Calculate statistics about individual and group tree trunks 
+    - Diameter at Breast Height
+    - Mean height
+    - DBH distribution
+    - Basal area
+
 ## Data
 ### **WaterLoo Park Lidar:**
  Download: https://www.fisheries.noaa.gov/inport/item/74249
