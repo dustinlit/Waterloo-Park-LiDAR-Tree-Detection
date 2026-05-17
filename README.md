@@ -2,7 +2,9 @@
 An exploration of machine learning techniques to detect and quantify individual trees in Waterloo Park in Lebanon, Oregon.
 
 ## Early Objectives
-- Reliably identify tree trunks using lidar points and correlate with orthophoto
+- Validate LAS data
+- Identify tree Canopies using lidar points and correlate with orthophoto
+- Identify tree trunks
 - Calculate statistics about individual and group tree trunks 
     - Diameter at Breast Height
     - Mean height
